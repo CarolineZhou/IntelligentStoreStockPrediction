@@ -1,0 +1,20 @@
+- Either implement a unique key value for RecMsg List component,
+or get an unique id to assign each List component that.
+    - Some way to disallow user to choose the same item/product
+- Upon lauching the frontend, need to
+    1. fetch itemlist info
+    2. fetch graph data for the first item in the itemlist
+    3. fetch recommendation data for the first item in the 
+    itemlist
+    4. ?
+- Whenever the list of selected items is modified,
+    1. fetch graph data for the first item in the itemlist, 
+    and change the frontend graph data acoordingly
+    2. fetch recommendation data for the first item in the 
+    itemlist and change the frontend rec data acoordingly
+    3. ?
+- warning messages section
+- possible style improvements
+    - maybe choose a nicer font? 
+    - make the recommendation area nicer?
+- ?
